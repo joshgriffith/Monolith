@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Monolith.Core\Monolith.Core.csproj" />
+    <ProjectReference Include="..\Monolith.Team1.Shared\Monolith.Team1.Shared.csproj" />
+    <ProjectReference Include="..\Monolith.Team2.Shared\Monolith.Team2.Shared.csproj" />
+  </ItemGroup>
+
+    <ItemGroup>
+        <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    </ItemGroup>
+
+</Project>
